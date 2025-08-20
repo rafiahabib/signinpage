@@ -57,7 +57,7 @@ export default function TextField({
         required={required}
         value={value}
         onChange={onChange}
-        className={`w-full rounded-xl bg-white/10 text-white placeholder-white/70 border border-white/20 
+        className={`focus:bg-white/40 w-full rounded-xl bg-white/10 text-white placeholder-white/70 border border-white/20 
         hover:outline-none focus:outline-none hover:ring-2 hover:ring-purple-300/60  hover:border-white/40
         px-12 py-3 pr-${withEye ? "12" : "4"} shadow-inner`}
       />
@@ -67,7 +67,7 @@ export default function TextField({
         <button
           type="button"
           onClick={() => setShow((s) => !s)}
-          className="absolute inset-y-0 right-0 pr-4 flex items-center text-white/80 hover:text-white"
+          className="absolute inset-y-0 right-0 pr-4 flex items-center text-white/80 hover:text-white "
           aria-label={show ? "Hide password" : "Show password"}
         >
           <IconEye open={show} />
