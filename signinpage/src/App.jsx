@@ -4,6 +4,7 @@ import SignInEmail from "./pages/SignInEmail";
 import SignInPassword from "./pages/SignInPassword";
 import ForgotPassword from "./pages/ForgotPassword";
 import ResetPassword from "./pages/ResetPassword";
+import SignUp from "./pages/SignUp"; // ⬅️ add
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         <Route path="/signin/password" element={<SignInPassword />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
         <Route path="/reset-password" element={<ResetPassword />} />
+        <Route path="/signup" element={<SignUp />} /> {/* ⬅️ new */}
       </Routes>
     </BrowserRouter>
   );

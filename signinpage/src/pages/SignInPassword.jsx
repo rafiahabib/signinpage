@@ -23,10 +23,10 @@ export default function SignInPassword() {
 
   return (
     <PageShell>
-      <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
+      <h1 className="text-4xl md:text-5xl font-bold text-purple-900 mt-6">
         Glad to see you back again!
       </h1>
-      <p className="mt-2 text-lg text-gray-700">
+      <p className="mt-2 text-lg text-gray-500">
         Enter your password to retrieve your information
       </p>
 
@@ -60,7 +60,7 @@ export default function SignInPassword() {
               type="checkbox"
               checked={remember}
               onChange={(e) => setRemember(e.target.checked)}
-              className="h-4 w-4 rounded border-gray-300"
+              className="h-4 w-4 rounded border-purple-300"
             />
             Remember for 30 days
           </label>

@@ -16,7 +16,7 @@ export default function ForgotPassword() {
 
   return (
     <PageShell>
-      <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
+      <h1 className="text-4xl md:text-5xl font-bold text-purple-900">
         Reset the password
       </h1>
 
