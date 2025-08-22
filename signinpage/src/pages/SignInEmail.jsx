@@ -23,7 +23,7 @@ export default function SignInEmail() {
         Who goes there?
       </h1>
 
-      <form onSubmit={submit} className="mt-8 space-y-6">
+      <form onSubmit={submit} className="mt-8 space-y-6 mb-6 ">
         <TextField
           label="Email"
           name="email"

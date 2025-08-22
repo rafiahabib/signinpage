@@ -30,7 +30,7 @@ export default function SignInPassword() {
         Enter your password to retrieve your information
       </p>
 
-      <form onSubmit={submit} className="mt-8 space-y-6">
+      <form onSubmit={submit} className="mx-auto mt-8 max-w-2xl space-y-5 rounded-2xl border border-gray-200 p-6">
         <div className="space-y-2">
           <div className="text-sm text-gray-800">Email@gmail.com</div>
           <TextField
